@@ -180,7 +180,7 @@
       <a href="#data">Data</a>
       <a href="#company">Company</a>
     </nav>
-    <a class="btn btn-gold" href="mailto:info@bramiqai.com?subject=BramiqAI%20walkthrough">Book a walkthrough</a>
+    <span style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn btn-soft" href="https://app.bramiqai.com/login">Sign in</a><a class="btn btn-gold" href="https://app.bramiqai.com/login">Create account</a></span>
   </header>
 
   <div class="hero-copy">
@@ -188,49 +188,49 @@
     <h1>Proof of what your data center <em>actually uses.</em></h1>
     <p class="lead">We help developers, utilities, and lenders trust the numbers. BramiqAI turns a site's own readings into a verifiable record of its water, energy, and grid performance.</p>
     <div class="cta-row">
-      <a class="btn btn-gold" href="mailto:info@bramiqai.com?subject=BramiqAI%20walkthrough">Book a 20-minute walkthrough <span aria-hidden="true">→</span></a>
-      <a class="btn btn-ghost" href="#reports">See the three reports <span aria-hidden="true">→</span></a>
+      <a class="btn btn-gold" href="https://app.bramiqai.com/login">Create an account <span aria-hidden="true">→</span></a>
+      <a class="btn btn-ghost" href="mailto:info@bramiqai.com?subject=BramiqAI%20walkthrough">Book a 20-minute walkthrough <span aria-hidden="true">→</span></a>
     </div>
   </div>
 
   <div class="features">
     <div class="feature"><i><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="M13 3c3.800 4.700 6.500 7.800 6.500 11.500a6.500 6.500 0 11-13 0C6.500 10.800 9.200 7.700 13 3z" stroke="#fff" stroke-width="1.900" stroke-linejoin="round"/></svg></i>Water, energy and carbon, hour by hour</div>
     <div class="feature"><i><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="M13 3l8 3v6c0 5-3.300 8.800-8 11-4.700-2.200-8-6-8-11V6l8-3z" stroke="#fff" stroke-width="1.900" stroke-linejoin="round"/><path d="M9.200 13l2.800 2.800 4.800-5.300" stroke="#fff" stroke-width="1.900" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Load reductions, independently verified</div>
-    <div class="feature"><i><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="7" y="7" width="12" height="12" rx="2" stroke="#fff" stroke-width="1.900"/><path d="M10.500 3v4M15.500 3v4M10.500 19v4M15.500 19v4M3 10.500h4M3 15.500h4M19 10.500h4M19 15.500h4" stroke="#fff" stroke-width="1.900" stroke-linecap="round"/></svg></i>A condition record for every GPU</div>
+    <div class="feature"><i><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="7" y="7" width="12" height="12" rx="2" stroke="#fff" stroke-width="1.900"/><path d="M10.500 3v4M15.500 3v4M10.500 19v4M15.500 19v4M3 10.500h4M3 15.500h4M19 10.500h4M19 15.500h4" stroke="#fff" stroke-width="1.900" stroke-linecap="round"/></svg></i>A usage record for financed GPUs</div>
     <div class="feature"><i><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="M2.500 13S6.500 6 13 6s10.500 7 10.500 7-4 7-10.500 7S2.500 13 2.500 13z" stroke="#fff" stroke-width="1.900" stroke-linejoin="round"/><circle cx="13" cy="13" r="3" stroke="#fff" stroke-width="1.900"/></svg></i>Read-only. It never touches your controls.</div>
   </div>
 
   <div class="panel-frame">
-    <div class="app" role="img" aria-label="The BramiqAI site overview screen, showing Oak Ridge Summit as the demonstration site">
+    <div class="app" role="img" aria-label="The BramiqAI real data screen, showing measured site power from the Perlmutter supercomputer in 2023">
       <div class="app-side">
         <div class="mini-brand">bramiq<span>ai</span></div>
-        <div class="item on">Site overview</div>
+        <div class="item">Site overview</div>
         <div class="item">Water, energy, carbon</div>
         <div class="item">Verification</div>
-        <div class="item">GPU asset record</div>
-        <div class="item">Data sources</div>
+        <div class="item">Collateral report</div>
+        <div class="item on">Real data</div>
       </div>
       <div class="app-main">
         <div class="app-title">
-          <div><b>Oak Ridge Summit</b><small>Demonstration site · public research dataset · Oak Ridge, Tennessee</small></div>
+          <div><b>Perlmutter system power, 2023</b><small>Demonstration site · public data · National Energy Research Scientific Computing Center</small></div>
           <div class="chip">Read-only connection</div>
         </div>
         <div class="tiles">
-          <div class="tile"><small>GPUs on site</small><b>27,756</b></div>
-          <div class="tile"><small>Compute nodes</small><b>4,626</b></div>
-          <div class="tile"><small>Peak site power</small><b>13 MW</b></div>
-          <div class="tile"><small>Reading interval</small><b>10 sec</b></div>
+          <div class="tile"><small>Energy measured</small><b>22,635 MWh</b></div>
+          <div class="tile"><small>Readings</small><b>499,205</b></div>
+          <div class="tile"><small>Peak power</small><b>5,952 kW</b></div>
+          <div class="tile"><small>Data completeness</small><b>95.0%</b></div>
         </div>
         <div class="rows">
           <div class="row"><b>Water, energy and carbon record</b><span>Hour by hour · method and assumptions shown</span></div>
           <div class="row"><b>Independent verification report</b><span>Per event · meter before, meter after baseline</span></div>
-          <div class="row"><b>GPU asset record</b><span>Per GPU · hot time and thermal cycles</span></div>
+          <div class="row"><b>Collateral monitoring report</b><span>Per month · GPU energy by node</span></div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<p class="caption">Site figures are from the documentation of the Oak Ridge Summit dataset, published by the Oak Ridge Leadership Computing Facility under CC BY 4.0.</p>
+<p class="caption">Figures computed by BramiqAI from the Perlmutter system power dataset, published by Lawrence Livermore National Laboratory under CC BY 4.0. No reading is altered or filled in.</p>
 
 <main>
 
@@ -256,7 +256,7 @@
     <div class="tablist" role="tablist" aria-label="Reports">
       <button class="tab" role="tab" id="tab-water" aria-controls="panel-water" aria-selected="true"><b>Water, energy and carbon record</b><span>For developers and sustainability leads</span></button>
       <button class="tab" role="tab" id="tab-verify" aria-controls="panel-verify" aria-selected="false" tabindex="-1"><b>Independent verification report</b><span>For utilities and operators on flexible grid connections</span></button>
-      <button class="tab" role="tab" id="tab-gpu" aria-controls="panel-gpu" aria-selected="false" tabindex="-1"><b>GPU asset record</b><span>For lenders, lessors, and resale buyers</span></button>
+      <button class="tab" role="tab" id="tab-gpu" aria-controls="panel-gpu" aria-selected="false" tabindex="-1"><b>Collateral monitoring report</b><span>For lenders, guarantors, and lessors</span></button>
     </div>
     <div class="tabpanel-frame">
       <div class="tabpanel" role="tabpanel" id="panel-water" aria-labelledby="tab-water">
@@ -284,15 +284,15 @@
           </ul></dd></dl>
       </div>
       <div class="tabpanel" role="tabpanel" id="panel-gpu" aria-labelledby="tab-gpu" hidden>
-        <h3>GPU asset record</h3>
-        <p>For each GPU: time spent at high temperature and the number of thermal cycles. It records what happened and makes no prediction about remaining life.</p>
-        <dl><dt>Decision it supports</dt><dd>The condition of hardware that secures a loan.</dd></dl>
+        <h3>Collateral monitoring report</h3>
+        <p>A monthly, independent usage record for GPU hardware that secures a loan. It states what the energy records show, and it states what they cannot show.</p>
+        <dl><dt>Decision it supports</dt><dd>Whether financed hardware is being used as the borrower reports.</dd></dl>
         <dl><dt>What is in the report</dt><dd>
           <ul class="checks">
-            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>Hours at or above a set temperature, per GPU</li>
-            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>Thermal cycles: full swings from cool to hot</li>
-            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>Energy delivered through each GPU</li>
-            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>The fleet ranked by how hard each GPU was run</li>
+            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>Nodes with energy records in the month, and those without</li>
+            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>GPU energy and its share of node energy</li>
+            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>A comparison with the borrower's own reported figure</li>
+            <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9.500l3.200 3.200L14 5.500" stroke="#0F4A3C" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>A written list of what the data cannot prove</li>
           </ul></dd></dl>
       </div>
     </div>
@@ -305,7 +305,7 @@
     <h2 id="how-h">From raw readings to a record someone else can check.</h2>
   </div>
   <div class="grid3">
-    <div class="step"><i>1</i><h3>Collect, read-only</h3><p>A small collector reads GPU power and temperature on your machines. It queries values and sends no commands.</p></div>
+    <div class="step"><i>1</i><h3>Upload, or collect read-only</h3><p>Upload a file of site power readings, or run a small collector on your machines. The collector queries values and sends no commands.</p></div>
     <div class="step"><i>2</i><h3>Add public context</h3><p>Readings are combined with open data for the site: weather observations, grid prices, and the grid's emissions rate.</p></div>
     <div class="step"><i>3</i><h3>Report, with the working shown</h3><p>Every figure traces back to a reading or a stated assumption. Where a number is calculated and not metered, the report says so.</p></div>
   </div>
@@ -340,11 +340,11 @@
     <div style="display:flex;flex-direction:column;gap:16px">
       <div class="eyebrow">Built on open data</div>
       <h2 id="data-h" style="font-size:clamp(28px,3.2vw,42px)">Real measurements and recognized methods.</h2>
-      <p class="lead">Our demonstrations run on public research data from working supercomputers, so you can check our reports against the source.</p>
+      <p class="lead">Our demonstrations run on public measurements from two U.S. Department of Energy supercomputers, so you can check our reports against the source.</p>
     </div>
     <div class="sources">
-      <div><b>Oak Ridge National Laboratory, Summit dataset</b>Per-GPU power and temperature from a 27,756-GPU supercomputer. Used under CC BY 4.0.</div>
-      <div><b>MIT Supercloud dataset</b>GPU utilization and temperature time series from a production research cluster.</div>
+      <div><b>Perlmutter system power, 2023</b>Whole-system power every 60 seconds from the supercomputer at NERSC. Published by Lawrence Livermore National Laboratory under CC BY 4.0.</div>
+      <div><b>Lassen job energy, 2018 to 2020</b>Node energy and GPU energy for each job on 792 nodes at Lawrence Livermore National Laboratory. Used under CC BY 4.0.</div>
       <div><b>National Weather Service, ERCOT, and U.S. EPA eGRID</b>Weather observations, grid prices, and grid emissions rates.</div>
       <div><b>Recognized methods</b>Meter before, meter after baselines for load reductions. The federal cooling tower formula for water.</div>
     </div>
@@ -356,7 +356,7 @@
     <div class="eyebrow">A note from the founder</div>
     <h2 id="note-h">I trained as an environmental scientist. I want the evidence before the claim.</h2>
     <p>I worked on liquid cooling products at Intel and ZutaCore, and I saw how often a data center's water and energy figures were estimates passed along as facts. The people deciding on permits, grid connections, and loans deserve a record they can check.</p>
-    <p>BramiqAI is early. The three reports work today, and the next step is real sites. If you build, connect, or finance data centers, I would like to show you what we have and hear what you need.</p>
+    <p>BramiqAI is early. The product runs today on real public measurements, and anyone can create an account and upload their own site data. The next step is real sites. If you build, connect, or finance data centers, I would like to show you what we have and hear what you need.</p>
     <div class="sign"><b>Ayobami Adegbite, PhD</b><span>Founder, BramiqAI</span></div>
   </div>
 </section>
@@ -365,11 +365,11 @@
   <div class="cta">
     <div style="flex:1 1 460px;min-width:0">
       <h2 id="cta-h">See the three reports on real data.</h2>
-      <p>A 20-minute walkthrough of the working product, then your questions.</p>
+      <p>Create an account and explore the product, or book a 20-minute walkthrough.</p>
     </div>
     <div>
-      <a class="btn btn-gold" href="mailto:info@bramiqai.com?subject=BramiqAI%20walkthrough">Book a walkthrough <span aria-hidden="true">→</span></a>
-      <div class="mail">info@bramiqai.com</div>
+      <a class="btn btn-gold" href="https://app.bramiqai.com/login">Create an account <span aria-hidden="true">→</span></a>
+      <div class="mail">Or write to info@bramiqai.com</div>
     </div>
   </div>
 </section>
@@ -386,12 +386,12 @@
         </a>
         <p style="margin-top:10px">Independent measurement for AI data centers.</p>
       </div>
-      <div><b>Reports</b><a href="#reports">Water, energy and carbon</a><a href="#reports">Independent verification</a><a href="#reports">GPU asset record</a></div>
-      <div><b>Company</b><a href="#company">About</a><a href="#data">Data and methods</a><a href="mailto:info@bramiqai.com">info@bramiqai.com</a></div>
+      <div><b>Reports</b><a href="#reports">Water, energy and carbon</a><a href="#reports">Independent verification</a><a href="#reports">Collateral monitoring</a></div>
+      <div><b>Company</b><a href="#company">About</a><a href="#data">Data and methods</a><a href="https://app.bramiqai.com/login">Sign in</a><a href="mailto:info@bramiqai.com">info@bramiqai.com</a></div>
     </div>
     <div class="legal">
       <div>© 2026 BramiqAI</div>
-      <div>Summit dataset: Oak Ridge Leadership Computing Facility, CC BY 4.0. Figures on this page are from public sources named beside each one.</div>
+      <div>Perlmutter and Lassen data: Lawrence Livermore National Laboratory, LAST repository, CC BY 4.0. Figures on this page are from public sources named beside each one.</div>
     </div>
   </div>
 </footer>
